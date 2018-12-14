@@ -35,12 +35,6 @@ const Page = ({title, stylesheet, header, main, footer, script, _relativeURL, _I
         </div>
         <main>
             {main}
-            <div>
-                {data !== undefined ?
-                    data.map((thing) => (
-                    <p>{thing.title}</p>
-                    )) : <p>You suck</p>}
-            </div>
         </main>
     </div>
 

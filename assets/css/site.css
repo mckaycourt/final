@@ -58,3 +58,31 @@ footer {
 .navBar li a:hover {
 	background-color: #111;
 }
+
+.movies {
+	min-height: 350px;
+}
+
+.movies img {
+	max-height: 300px;
+	float: left;
+}
+
+.movies p {
+	padding-left: 250px;
+	padding-top: 25px;
+}
+
+.books {
+	min-height: 400px;
+}
+
+.books img {
+	max-height: 300px;
+	float: left;
+}
+
+.books p {
+	padding-left: 250px;
+	padding-top: 25px;
+}

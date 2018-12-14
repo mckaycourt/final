@@ -9,8 +9,9 @@ const Movie = ({title, data, type}) => (
             <div>
                 {(data !== undefined) ?
                     data.map((thing) => (
-                            <div className='movies'>
+                            <div className='books'>
                                 <h2>{thing.title}</h2>
+                                <h3>{thing.author}</h3>
                                 <img src={thing.img}/>
                                 <p>{thing.text}</p>
                             </div>
