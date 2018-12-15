@@ -3,7 +3,7 @@ import React from 'react';
 import navBar from '../assets/navbar';
 
 const Movie = ({title, data, type}) => (
-    <div className="top">
+    <div className="allBooks">
         <main>
             <h1>McKay's Favorite {type}</h1>
             <div>

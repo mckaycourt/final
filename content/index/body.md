@@ -2,4 +2,5 @@
 # You don’t need to declare anything in the frontmatter
 ---
 
-This is a demo page to get you running asap.
+Please enjoy all the things that I am passionate about. 🙃
+<div class='cat'><img src="https://media.giphy.com/media/sIIhZliB2McAo/giphy.gif"/></div>

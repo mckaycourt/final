@@ -5,7 +5,7 @@ import navBar from '../assets/navbar';
 /**
  * The page layout component
  */
-const Page = ({title, stylesheet, header, main, footer, script, _relativeURL, _ID, data}) => (
+const Page = ({title, stylesheet, header, main, footer, script, _relativeURL, _ID}) => (
     <html>
     <head>
         <title>{title}</title>

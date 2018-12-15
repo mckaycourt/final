@@ -35,6 +35,16 @@ footer {
 	border-top: 2px solid #f55555;
 }
 
+.allMovies {
+	width: 75%;
+	margin: auto;
+}
+
+.allBooks {
+	width: 75%;
+	margin: auto;
+}
+
 .navBar ul {
 	list-style-type: none;
 	margin: 0;
@@ -61,6 +71,11 @@ footer {
 
 .movies {
 	min-height: 350px;
+	border-bottom: 4px solid #32ccbc;
+}
+
+.trailer {
+	text-align: right;
 }
 
 .movies img {
@@ -71,10 +86,12 @@ footer {
 .movies p {
 	padding-left: 250px;
 	padding-top: 25px;
+	font-size: x-large;
 }
 
 .books {
 	min-height: 400px;
+	border-bottom: 4px solid #32ccbc;
 }
 
 .books img {
@@ -85,4 +102,35 @@ footer {
 .books p {
 	padding-left: 250px;
 	padding-top: 25px;
+	font-size: x-large;
+}
+
+.restaurants {
+	min-height: 450px;
+	border-bottom: 4px solid #32ccbc;
+}
+
+.restaurants .img {
+	float: left;
+	max-width: 500px;
+}
+
+.restaurants .foodImg {
+	float: right;
+	max-width: 250px;
+}
+
+.restaurants .google {
+	margin: auto;
+	text-align: center;
+}
+
+.restaurants p {
+	padding-left: 50%;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.cat {
+	text-align: center;
 }
